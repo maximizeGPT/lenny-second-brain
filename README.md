@@ -6,23 +6,81 @@
 
 A Claude Project template that trains Claude on Lenny's PM frameworks, then applies them to OpenClaw debugging. Turns technical errors into product problems with systematic solutions.
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Visual Guide)
 
 ### Step 1: Create Claude Project
-1. Go to [claude.ai](https://claude.ai)
-2. Click "New Project"
-3. Name it: "Lenny's OpenClaw Brain"
+
+1. Go to [claude.ai](https://claude.ai) and sign in
+2. Click **"New Project"** in the left sidebar
+3. Name it: **"Lenny's OpenClaw Brain"**
+4. Click **Create**
+
+![Step 1: Create Project](screenshots/step1-create-project.png)
+
+---
 
 ### Step 2: Add Instructions
-Copy the contents of [`CLAUDE-PROJECT.md`](CLAUDE-PROJECT.md) into the Project Instructions.
 
-### Step 3: Upload Lenny's Content
-Upload these files from Lenny's data:
-- `newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md`
-- `newsletters/everyone-should-be-using-claude-code-more.md`
-- `newsletters/product-manager-is-an-unfair-role-so-work-unfairly.md`
-- `podcasts/ben-horowitz.md`
-- `podcasts/bret-taylor.md`
+1. In your new project, click on **"Project Instructions"**
+2. Copy the contents of [`CLAUDE-PROJECT.md`](CLAUDE-PROJECT.md)
+3. Paste into the instructions box
+4. Click **Save**
+
+![Step 2: Add Instructions](screenshots/step2-add-instructions.png)
+
+---
+
+### Step 3: Connect GitHub Repository
+
+1. Click the **"+"** next to Files
+2. Select **"Connect to GitHub"**
+3. Authorize Claude to access GitHub (if first time)
+4. Search for: `maximizeGPT/lenny-second-brain`
+5. Click **Connect**
+
+![Step 3: Connect GitHub](screenshots/step3-connect-github.png)
+
+---
+
+### Step 4: Select Files
+
+**Important:** Only select these folders to stay under the file limit:
+
+✅ **Check these:**
+- `lenny-curated/` (58% of capacity)
+- `CLAUDE-PROJECT.md` (<1% of capacity)
+
+❌ **Uncheck these:**
+- `lenny-content/` (old version, not needed)
+- `README.md` (optional)
+- `example-outputs/` (optional)
+- `frameworks/` (optional)
+
+**Total should be ~59%** — well under the 100% limit.
+
+![Step 4: Select Files](screenshots/step4-select-files.png)
+
+Click **"Add files"** when ready.
+
+---
+
+### Step 5: Test It
+
+Start a new chat and paste this test prompt:
+
+```
+I'm getting a 'gateway closed (1000)' error in OpenClaw when trying to approve devices. 
+I've tried restarting but it keeps happening. Help me debug this like a PM.
+```
+
+Claude should respond with:
+1. **Empathy** for your frustration
+2. **Classification** of the issue type
+3. **5 Whys analysis** to find root cause
+4. **Clear fix steps**
+5. **Prevention** suggestions
+
+![Step 5: Test](screenshots/step5-test.png)
 
 ### Step 4: Test It
 Try this prompt:
