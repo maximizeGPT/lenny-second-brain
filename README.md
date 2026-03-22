@@ -12,10 +12,15 @@ A Claude Project template that trains Claude on Lenny's PM frameworks, then appl
 
 1. Go to [claude.ai](https://claude.ai) and sign in
 2. Click **"New Project"** in the left sidebar
-3. Name it: **"Lenny's OpenClaw Brain"**
-4. Click **Create**
 
-![Step 1: Create Project](screenshots/step1-create-project.png)
+![Step 1: Projects Menu](screenshots/step1-projects-menu.png)
+
+3. Click the **"New Project"** button
+
+![Step 2: New Project Button](screenshots/step2-new-project.png)
+
+4. Name it: **"Lenny's OpenClaw Brain"**
+5. Click **Create**
 
 ---
 
@@ -26,19 +31,18 @@ A Claude Project template that trains Claude on Lenny's PM frameworks, then appl
 3. Paste into the instructions box
 4. Click **Save**
 
-![Step 2: Add Instructions](screenshots/step2-add-instructions.png)
-
 ---
 
 ### Step 3: Connect GitHub Repository
 
 1. Click the **"+"** next to Files
 2. Select **"Connect to GitHub"**
+
+![Step 3: Add Files Menu](screenshots/step3-add-files.png)
+
 3. Authorize Claude to access GitHub (if first time)
 4. Search for: `maximizeGPT/lenny-second-brain`
 5. Click **Connect**
-
-![Step 3: Connect GitHub](screenshots/step3-connect-github.png)
 
 ---
 
@@ -79,8 +83,6 @@ Claude should respond with:
 3. **5 Whys analysis** to find root cause
 4. **Clear fix steps**
 5. **Prevention** suggestions
-
-![Step 5: Test](screenshots/step5-test.png)
 
 ### Step 4: Test It
 Try this prompt:
