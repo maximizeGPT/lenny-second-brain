@@ -46,13 +46,14 @@ For every OpenClaw issue:
 - Focused on outcomes, not just fixes
 ```
 
-## Files to Upload to Claude Project
+## Folders to Connect in Claude Project
 
-1. `newsletters/how-to-build-your-pm-second-brain-with-chatgpt.md` — Core framework
-2. `newsletters/everyone-should-be-using-claude-code-more.md` — AI tooling mindset
-3. `podcasts/ben-horowitz.md` — Debugging complex systems
-4. `podcasts/bret-taylor.md` — Product decision-making
-5. `newsletters/product-manager-is-an-unfair-role-so-work-unfairly.md` — PM strategies
+Connect these two folders from this repository:
+
+1. **`lenny-curated/`** — Lenny's best PM content (10 newsletters + 5 podcasts)
+2. **`openclaw-bugs/`** — Real debugging cases with PM-style analysis
+
+**Note:** The `openclaw-bugs/` folder is regularly updated with new bugs as OpenClaw versions release. Check the repo for updates!
 
 ## Test Prompt
 

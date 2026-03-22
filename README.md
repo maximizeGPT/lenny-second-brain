@@ -52,6 +52,8 @@ A Claude Project template that trains Claude on Lenny's PM frameworks, then appl
 
 Click **"Add files"** when ready.
 
+> **Note:** The `openclaw-bugs/` folder is regularly updated with new bugs as OpenClaw versions release. Check back for updates!
+
 ### Step 5: Test It
 
 Start a new chat and try:
@@ -115,9 +117,8 @@ This project teaches Claude to:
 
 This project was built for [Lenny's Newsletter Challenge](https://lennysnewsletter.com/p/how-i-built-lennyrpg) — applying his PM wisdom to a new domain (AI agent debugging).
 
-**Built by:** [Mohlt](https://github.com/mohltbot)  
-**Data from:** [Lenny's Newsletter](https://www.lennysnewsletter.com/)  
-**Use case:** [OpenClaw Debugger](https://github.com/mohltbot/mission-control)
+**Built by:** [Mohammed Wasif](https://x.com/Mohammed__Wasif)  
+**Data from:** [Lenny's Newsletter](https://www.lennysnewsletter.com/)
 
 ---
 
